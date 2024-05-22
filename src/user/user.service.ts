@@ -5,19 +5,6 @@ import { User } from './user.entity';
 
 @Injectable()
 export class UserService {
-    /*constructor() {}
-
-    addUser(email: string): Promise<void> {
-        throw new NotImplementedException();
-    }
-
-    getUser(email: string): Promise<unknown> {
-        throw new NotImplementedException();
-    }
-
-    resetData(): Promise<void> {
-        throw new NotImplementedException();
-    }*/
     constructor(
         @InjectRepository(User)
         private userRepository: Repository<User>,
@@ -48,7 +35,6 @@ export class UserService {
     }
     
     async resetData(): Promise<void> {
-        //await this.userRepository.clear();
         await this.userRepository.query('TRUNCATE TABLE "user" RESTART IDENTITY CASCADE');
     }
 

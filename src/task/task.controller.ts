@@ -29,11 +29,6 @@ export class TaskController {
     }
   }
 
-  @Get(':name')
-  async getTaskByName(@Param('name') name: string): Promise<Task | undefined> {
-    return this.taskService.getTaskByName(name);
-  }
-
   @Get('user/:userId')
   async getUserTasks(@Param('userId') userId: number): Promise<Task[]> {
     if (!userId || isNaN(userId) || userId < 0) {
