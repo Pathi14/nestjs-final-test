@@ -1,17 +1,17 @@
-🏗️ Projet ToDoList avec Nest.js et TypeORM
+# 🏗️ Projet ToDoList avec Nest.js et TypeORM
 
-📌 Description
+## 📌 Description
 
 Ce projet est une API de TodoList, l'objectif est de faire passer tous les tests du dossier test.
 
-📌 Fonctionnalité
+## 📌 Fonctionnalité
 
         🔴  Creation d'un utilisateur
         🔴  Affichage des utilisateur
         🔴  Creation de tâche pour utilisateur
         🔴  Affichage des tâches par utilisateur
 
-📌 Environnement de developpement
+## 📌 Environnement de developpement
 
         🔴  NestJS
         🔴  TypeORM
@@ -19,7 +19,7 @@ Ce projet est une API de TodoList, l'objectif est de faire passer tous les tests
         🔴  Docker
         🔴  Windows
 
-📌 Installation et démarrage du projet
+## 📌 Installation et démarrage du projet
 
     📝  Prérequis
         1. Node.js (v14 ou supérieur)
@@ -28,34 +28,34 @@ Ce projet est une API de TodoList, l'objectif est de faire passer tous les tests
 
     📈  Suivez les étapes ci-dessous pour cloner le projet, installer les dépendances et démarrer le serveur de votre API
 
-        1. Clonez le dépôt GitHub du projet.
-            ```bash
-            git clone https://github.com/Pathi14/nestjs-final-test.git
-            ```
+1. Clonez le dépôt GitHub du projet.
+    ```bash
+    git clone https://github.com/Pathi14/nestjs-final-test.git
+    ```
 
-        2. Accédez au répertoire du projet.
-            ```bash
-            cd nestjs-final-test
-            ```
+2. Accédez au répertoire du projet.
+    ```bash
+    cd nestjs-final-test
+    ```
 
-        3. Installez les dépendances necessaire.
-            ```bash
-            npm install
-            ```
+3. Installez les dépendances necessaire.
+    ```bash
+    npm install
+    ```
 
-        4. Démarrez le projet selon votre environnement.
-            ```bash
-            npm run start:postgres
-            npm run start:postgres:windows
-            ```
+4. Démarrez le projet selon votre environnement.
+    ```bash
+    npm run start:postgres
+    npm run start:postgres:windows
+    ```
 
-        5. Script utilisé pour lancer les tests 
-            ```bash
-            npm run test:e2e:postgres
-            npm run test:e2e:postgres:windows
-            ```
+5. Script utilisé pour lancer les tests 
+    ```bash
+    npm run test:e2e:postgres
+    npm run test:e2e:postgres:windows
+    ```
 
-📌 Utilisation
+# 📌 Utilisation
 
     📍 Backend
 
